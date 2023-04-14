@@ -1,0 +1,26 @@
+# Arquivos e diretórios do PHPStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de cache do Composer
+vendor/
+composer.lock
+
+# Arquivos de cache do PHPUnit
+.phpunit/
+coverage/
+
+# Arquivos de cache do Codeception
+tests/_output/
+
+# Arquivos de log do Apache
+error_log
+access_log
+
+# Arquivos de configuração sensíveis
+config.php
+.env
+.env.local
+.env.test
